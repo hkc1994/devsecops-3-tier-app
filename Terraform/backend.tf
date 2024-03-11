@@ -16,7 +16,7 @@ terraform {
 
   backend "s3" {
 
-    bucket = "devsecops-3-tier-app"
+    bucket = "devsecops-3-tier-app-demo"
 
     key = "state/terraform.tfstate"
 
